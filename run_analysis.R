@@ -33,7 +33,7 @@ ds <- rbind(train, test)                  # full merged dataset
 features <- rbind(features, c(c(562, "activity_id")))
 features <- rbind(features, c(c(563, "subject_id")))
 
-# 2. Filtering data (mean and std variables only)
+# 2. Filtering data (mean, std and newest variables only)
 cleanfeaturesIndex <- grep("mean|std|activity_id|subject_id", features$feature_name)
 features <- features[cleanfeaturesIndex, ]
 ds <- ds[, cleanfeaturesIndex]
@@ -58,5 +58,5 @@ ds$activity_id <- as.character(ds$activity_id)
 library(plyr)
 grouped <- ddply(ds, .(activity_name, subject_id), numcolwise(mean))
 
-# Writing a file with the last dataset
+# 6.  Writing a file with the last dataset
 write.table(grouped, "project_output_ds.txt", row.names = FALSE)
