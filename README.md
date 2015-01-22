@@ -41,4 +41,4 @@ Last, we write this dataset into a file called "project_output_ds.txt".
 
 ## More information
 For more informations, you can access the [CodeBook](CodeBook.md) file, where all the datasets and
-its variabes are explained or access the [code](run_analysis.R).
+its variabes are explained or check the [code](run_analysis.R).
