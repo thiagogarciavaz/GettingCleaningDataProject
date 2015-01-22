@@ -39,6 +39,6 @@ mean of all numeric variables.
 7. Writing a file with the last dataset:
 Last, we write this dataset into a file called "project_output_ds.txt".
 
-## More informations
+## More information
 For more informations, you can access the CodeBook.md file, where all the datasets and
 its variabes are explained.
