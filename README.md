@@ -1,4 +1,4 @@
-### Getting Cleaning Data Project
+# Getting Cleaning Data Project
 Project from Getting and Cleaning Data course (Coursera/Johns Hopkings)
 
 ## Introduction
