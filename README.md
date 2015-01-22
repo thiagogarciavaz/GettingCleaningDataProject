@@ -31,13 +31,13 @@ During all the transformation, we keep the "features" dataset updated with varia
 names, and now, we put its values into columns labels.
 
 6. Creating a new dataset, sumarized by activity and subject:
-After all the transformations in the dataset "ds" done, we create a new one, sumarizing
-data by "activity" and "subject".
+After all the transformations in the dataset "ds" done, we create a new one (called 
+grouped), sumarizing data by "activity" and "subject".
 To acomplish it, we get support from "plyr" library, using the "numcolwise" to get the
 mean of all numeric variables.
 
 7. Writing a file with the last dataset:
-Last, we write into this dataset into a file called "project_output_ds.txt".
+Last, we write this dataset into a file called "project_output_ds.txt".
 
 ## More informations
 For more informations, you can access the CodeBook.md file, where all the datasets and
