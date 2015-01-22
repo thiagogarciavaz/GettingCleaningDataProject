@@ -7,7 +7,7 @@ The general purpose is to get, clean, merge and summarize the data, in order
 to reach a tidy and clean view of all amount of data.
 
 ## How does the code works?
-The code is splited into seven steps.
+The [code](run_analysis.R) is splited into seven steps.
 
 1. Reading dataset:
 The first step is responsable to read features, activity
@@ -41,4 +41,4 @@ Last, we write this dataset into a file called "project_output_ds.txt".
 
 ## More information
 For more informations, you can access the [CodeBook](CodeBook.md) file, where all the datasets and
-its variabes are explained.
+its variabes are explained or access the [code](run_analysis.R).
