@@ -40,5 +40,5 @@ mean of all numeric variables.
 Last, we write this dataset into a file called "project_output_ds.txt".
 
 ## More information
-For more informations, you can access the [a relative link](CodeBook.md) file, where all the datasets and
+For more informations, you can access the [CodeBook](CodeBook.md) file, where all the datasets and
 its variabes are explained.

@@ -223,4 +223,4 @@ of all measurements (from the signal processed) of this user (2), executing this
 * fBodyBodyGyroJerkMag_std
 * fBodyBodyGyroJerkMag_meanFreq
 
-For more information, you can access the original dataset info from the website [a link](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+For more information, you can access the original dataset info from the [website](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
